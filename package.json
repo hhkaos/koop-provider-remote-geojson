@@ -1,0 +1,37 @@
+{
+    "name": "koop-provider-remote-geojson",
+    "version": "0.1.0",
+    "description": "Provider to recover any static GeoJSON from any server a serve it as a feature service",
+    "author": "Raul Jimenez <raul.jimenez@esri.es>",
+    "bugs": {
+        "url": "https://github.com/hhkaos/koop-provider-remote-geojson/issues"
+    },
+    "homepage": "https://github.com/hhkaos/koop-provider-remote-geojson",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:hhkaos/koop-provider-remote-geojson.git"
+    },
+    "license": "Apache-2.0",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "mocha 'test/**/*.test.js'",
+        "start": "koop serve"
+    },
+    "dependencies": {
+        "config": "^3.1.0",
+        "atob": "^2.1.2",
+        "request": "^2.79.0"
+    },
+    "devDependencies": {
+        "@koopjs/cli": "^0.4.0",
+        "chai": "^4.2.0",
+        "mocha": "^6.1.4"
+    },
+    "keywords": [
+        "koop",
+        "plugin",
+        "provider",
+        "carto",
+        "etl"
+    ]
+}
